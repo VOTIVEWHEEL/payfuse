@@ -1,0 +1,35 @@
+{
+  "name": "@payfuse/core",
+  "version": "0.1.0",
+  "description": "Core types, interfaces, and contracts for PayFuse",
+  "license": "MIT",
+  "author": "Joshua Adesanya",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/payfuse",
+    "directory": "packages/core"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist"
+  }
+}
