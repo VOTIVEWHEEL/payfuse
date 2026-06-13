@@ -1,13 +1,13 @@
 {
-  "name": "@payfuse/flutterwave",
+  "name": "@payfuse/interswitch",
   "version": "0.1.0",
-  "description": "Flutterwave adapter for PayFuse",
+  "description": "Interswitch adapter for PayFuse",
   "license": "MIT",
   "author": "Joshua Adesanya",
   "repository": {
     "type": "git",
     "url": "https://github.com/YOUR_USERNAME/payfuse",
-    "directory": "packages/providers/flutterwave"
+    "directory": "packages/providers/interswitch"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

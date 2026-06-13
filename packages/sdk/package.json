@@ -1,13 +1,13 @@
 {
-  "name": "@payfuse/flutterwave",
+  "name": "@payfuse/sdk",
   "version": "0.1.0",
-  "description": "Flutterwave adapter for PayFuse",
+  "description": "PayFuse unified payment orchestration SDK",
   "license": "MIT",
   "author": "Joshua Adesanya",
   "repository": {
     "type": "git",
     "url": "https://github.com/YOUR_USERNAME/payfuse",
-    "directory": "packages/providers/flutterwave"
+    "directory": "packages/sdk"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -33,7 +33,12 @@
     "clean": "rimraf dist"
   },
   "dependencies": {
-    "@payfuse/core": "*"
+    "@payfuse/core": "*",
+    "@payfuse/paystack": "*",
+    "@payfuse/flutterwave": "*",
+    "@payfuse/mtn-momo": "*",
+    "@payfuse/interswitch": "*",
+    "@payfuse/opay": "*"
   },
   "devDependencies": {
     "typescript": "^5.4.0",

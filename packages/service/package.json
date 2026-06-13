@@ -1,0 +1,35 @@
+{
+  "name": "@payfuse/service",
+  "version": "0.1.0",
+  "description": "PayFuse hosted REST API service",
+  "license": "MIT",
+  "author": "Joshua Adesanya",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/payfuse",
+    "directory": "packages/service"
+  },
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "clean": "rimraf dist"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@payfuse/sdk": "*",
+    "fastify": "^4.26.0",
+    "@fastify/helmet": "^11.1.1",
+    "@fastify/rate-limit": "^9.1.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "rimraf": "^5.0.0"
+  }
+}
